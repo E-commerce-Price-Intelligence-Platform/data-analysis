@@ -1,0 +1,31 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              price_mad   R-squared:                       0.976
+Model:                            OLS   Adj. R-squared:                  0.974
+Method:                 Least Squares   F-statistic:                     642.7
+Date:                Tue, 05 May 2026   Prob (F-statistic):           9.89e-39
+Time:                        20:45:02   Log-Likelihood:                -364.49
+No. Observations:                  52   AIC:                             737.0
+Df Residuals:                      48   BIC:                             744.8
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+Intercept                          44.6314    100.827      0.443      0.660    -158.095     247.358
+C(source_site)[T.electroplanet]  1.366e-11   3.07e-11      0.444      0.659   -4.82e-11    7.55e-11
+C(source_site)[T.jumia_ma]         44.6314    100.827      0.443      0.660    -158.095     247.358
+rating                             57.8121     43.494      1.329      0.190     -29.639     145.264
+reviews                            -1.2479      1.363     -0.916      0.364      -3.988       1.492
+old_price_mad                       0.6708      0.016     42.689      0.000       0.639       0.702
+==============================================================================
+Omnibus:                       28.954   Durbin-Watson:                   1.536
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              161.065
+Skew:                           1.092   Prob(JB):                     1.06e-35
+Kurtosis:                      11.341   Cond. No.                     8.59e+19
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 9.81e-32. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.

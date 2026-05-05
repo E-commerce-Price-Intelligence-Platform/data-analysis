@@ -1,0 +1,31 @@
+# ============================================================
+# requirements.txt — Price Intelligence
+# Installer avec : pip install -r requirements.txt
+# ============================================================
+
+# Data manipulation
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Statistiques
+scipy>=1.11.0
+statsmodels>=0.14.0
+pingouin>=0.5.3
+
+# Visualisation
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# BigQuery
+google-cloud-bigquery>=3.11.0
+google-cloud-bigquery-storage>=2.22.0
+db-dtypes>=1.1.1
+pyarrow>=12.0.0
+
+# Utilitaires
+python-dotenv>=1.0.0
+loguru>=0.7.0
+tqdm>=4.65.0
+openpyxl>=3.1.0
+ipykernel>=6.0.0

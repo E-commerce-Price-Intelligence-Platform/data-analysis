@@ -1,0 +1,55 @@
+# ── Credentials & Secrets — JAMAIS sur GitHub ──────────────
+.env
+credentials.json
+service_account*.json
+*service-account*.json
+*key*.json
+*secret*.json
+
+# ── Données — trop lourdes pour Git ────────────────────────
+data/raw/
+data/processed/
+data/exports/
+*.parquet
+*.csv
+*.xlsx
+*.xls
+
+# ── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── Jupyter ─────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── Environnements virtuels ──────────────────────────────────
+.conda/
+venv/
+env/
+ENV/
+.venv/
+
+# ── OS ───────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ── Éditeurs ─────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
