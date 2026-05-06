@@ -1,7 +1,9 @@
 # 📊 Analyse de Données — E-commerce Price Intelligence Platform
 
 > **Projet :**  Real-Time E-commerce Price Intelligence Platform
-> **Couche :** Analysis Layer 
+> 
+> **Couche :** Analysis Layer
+> 
 > **Auteure :** Basma ABIS 
 
 
@@ -34,22 +36,32 @@ data-analysis/
 ###  Statistiques descriptives
 
 | Analyse | Résultat produit |
-|
+
 | Moyenne et médiane des prix | Par plateforme et global |
+
 | Volatilité des prix | Écart-type + coefficient de variation |
+
 | Distribution des remises | Montant et pourcentage de réduction |
+
 | Tendances par catégorie/marque | Top 10 marques |
+
 | Évolution des prix dans le temps | Série temporelle par date de collecte |
+
 
 ###  Statistiques inférentielles
 
 | Test | Objectif |
 |
-| Shapiro-Wilk | Vérification de la normalité |
+| Shapiro-Wilk | Vérification de la normalité | 
+
 | Mann-Whitney U | Comparaison des prix entre deux plateformes |
+
 | Kruskal-Wallis / ANOVA | Comparaison sur les trois plateformes |
+
 | Régression OLS | Prix ~ note + avis + temps + plateforme |
+
 | Intervalles de confiance (95%) | Estimation du prix moyen par plateforme |
+
 | Power Analysis | Vérification de la taille d'échantillon |
 
 
