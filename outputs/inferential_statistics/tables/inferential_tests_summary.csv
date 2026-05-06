@@ -1,0 +1,8 @@
+Étape,Test utilisé,Objectif du test,p-value,Décision statistique,Conclusion
+Normalité,Shapiro-Wilk,Vérifier si les prix de jumia_ma suivent une loi normale,0.0,Rejet de H0,Les prix ne suivent pas une distribution normale.
+Normalité,Shapiro-Wilk,Vérifier si les prix de electroplanet suivent une loi normale,0.0,Rejet de H0,Les prix ne suivent pas une distribution normale.
+Égalité des variances,Levene,Vérifier si les deux plateformes ont des variances similaires,0.0,Rejet de H0,Les variances des deux plateformes sont significativement différentes.
+Comparaison de deux plateformes,Mann-Whitney,Comparer les prix entre jumia_ma et electroplanet,0.0243,Rejet de H0,Il existe une différence significative entre les prix des deux plateformes.
+Comparaison de plusieurs groupes,Kruskal-Wallis,Comparer les prix selon la variable source_site,0.0621,Non-rejet de H0,Aucune différence significative n’a été détectée selon source_site.
+Régression,Régression linéaire OLS,Étudier l’effet des variables explicatives sur le prix,0.0,Rejet de H0,Le modèle est globalement significatif : certaines variables expliquent une partie du prix.
+Power Analysis,Analyse de puissance statistique,Vérifier si la taille de l’échantillon est suffisante,Non applicable,Puissance suffisante,L’échantillon est suffisamment grand pour détecter une différence statistique.

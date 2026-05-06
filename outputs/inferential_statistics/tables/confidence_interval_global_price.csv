@@ -1,0 +1,2 @@
+metric,n,mean_price,std_price,ci_lower,ci_upper
+global_mean_price,332,5104.848885542169,4817.725826499397,4584.718749257848,5624.979021826491

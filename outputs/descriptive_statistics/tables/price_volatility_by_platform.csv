@@ -1,0 +1,4 @@
+source_site,count,mean_price,median_price,std_price,min_price,max_price,coefficient_variation
+Electroplanet,53,7775.43,6639.0,7012.94,39.0,20999.0,0.9019
+amazon_fr,18,4397.88,4851.6,2799.71,152.02,9608.17,0.6366
+jumia_ma,269,4787.38,2790.0,4607.45,49.0,20990.0,0.9624

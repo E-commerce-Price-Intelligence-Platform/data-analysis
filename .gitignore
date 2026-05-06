@@ -1,4 +1,4 @@
-# ── Credentials & Secrets — JAMAIS sur GitHub ──────────────
+## ── Credentials & Secrets — JAMAIS sur GitHub ──────────────
 .env
 credentials.json
 service_account*.json
@@ -11,9 +11,14 @@ data/raw/
 data/processed/
 data/exports/
 *.parquet
-*.csv
 *.xlsx
 *.xls
+
+# Ignorer les CSV par défaut
+*.csv
+
+# Autoriser seulement les CSV de résultats dans outputs/
+!outputs/**/*.csv
 
 # ── Python ──────────────────────────────────────────────────
 __pycache__/

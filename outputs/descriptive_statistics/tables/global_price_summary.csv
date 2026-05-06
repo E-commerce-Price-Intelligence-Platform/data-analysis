@@ -1,0 +1,5 @@
+metric,value,interpretation
+mean_price_mad,5232.540676470589,Prix moyen des smartphones en MAD.
+median_price_mad,2994.5,Prix médian des smartphones en MAD.
+std_price_mad,5091.63744068498,Volatilité globale des prix.
+coefficient_variation_percent,97.3071736179861,Dispersion relative des prix par rapport à la moyenne.

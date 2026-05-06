@@ -1,0 +1,4 @@
+Plateforme 1,Plateforme 2,n1,n2,U-val,p-val,Significatif à 5%
+jumia_ma,electroplanet,266,48,5079.5,0.024287041413283403,True
+jumia_ma,amazon_fr,266,18,2154.0,0.47753416426922957,False
+electroplanet,amazon_fr,48,18,533.0,0.14775879072950676,False

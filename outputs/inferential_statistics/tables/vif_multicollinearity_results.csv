@@ -1,0 +1,6 @@
+Variable,VIF,Interprétation
+C(source_site)[T.jumia_ma],27.20084643957667,Multicolinéarité forte
+old_price_mad,1.048492382054697,Acceptable
+reviews,1.048269388637749,Acceptable
+rating,1.0013688345955947,Acceptable
+C(source_site)[T.electroplanet],,Multicolinéarité forte
